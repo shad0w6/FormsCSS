@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+<h1 id="head"> Course Registration Form</h1>
+<form action="">
+  <fieldset>
+    <legend>Personal Detailes </legend>
+    <table>
+      <tr>
+        <td><label for="fname">First Name</label></td>
+        <td><input type="text" size="20" placeholder="Ex: john" maxlength="20" required /><span>Enter your name</span> </td>
+       
+            
+      </tr>
+      <tr>
+        <td><label for="lname">Last Name</label></td>
+        <td><input type="text" size="20" placeholder="Ex:H" maxlength="20"  /><span>Enter your lname</span></td>
+            
+      </tr>
+      <tr>
+        <td><label for="mobile">Mobile Number</label></td>
+        <td><input type="tel" placeholder="4568-789-458" /></td>
+           
+      </tr>
+      <tr>
+        <td><label for="">Email</label></td>
+        <td><input type="email" id="email" placeholder="abc@gmail.com" required /><img id="valid" src="th.jpeg" alt=""><img id="invalid" src="th (2).jpeg" alt=""> </td>
+      
+      </tr>
+      <tr>
+        <td><label for="password">Password</label></td>
+        <td>
+          <input type="password" placeholder="minimum 8 letters" required />
+        </td>
+      </tr>
+      <tr>
+        <td><label for="cpassword">Confirm Password</label></td>
+        <td>
+          <input type="password"  placeholder="minimum 8 letters"  required />
+        </td>
+      </tr>
+      <tr>
+        <td><label for="dob">DOB</label></td>
+        <td><input type="date" id="dob" name="dob" required /></td>
+      </tr>
+      <tr>
+        <td><label for="age">Age</label></td>
+        <td><input type="text" placeholder="70" required /></td>
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td>
+          <input type="radio" id="male" name="gender" value="male" required />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
+          <input type="radio" id="trans" name="gender" value="trans" />
+          <label for="trans">Trans</label>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="city">Select City</label></td>
+        <td>
+          <select id="city" name="city" required>
+            <option value="">--Select--</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="chennai">Chennai</option>
+            <option value="mumbai">Mumbai</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="image">Upload Image</label></td>
+        <td><input type="file" id="image" name="image" /></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="submit" value="Reset" />
+        </td>
+      </tr>
+    </table>
+ 
+  </fieldset>
+  <fieldset><legend>Course Detatails</legend>
+    <tr><label for="">Select Course</label>
+      <select>
+        name="Course Name">
+        <option value="">Python</option>
+        <option value="">java</option>
+        <option value="">c</option>
+      </select></tr>
+    <br />
+    <tr><label for="">Institute Name :</label>
+    <td> Tap Academy</td><br></tr>
+    
+    <td>Delevery Mode</td>
+  
+    <input type="radio" id="Online" name="Delevery Mode" value="Online" />
+    <label for="online">Online</label>
+    <input type="radio" id="Offline" name="Delevery Mode" value="Ofline" />
+    <label for="offline">Offline</label><br />
+    <label for="">Comment</label><br>
+    
+  </form>
+  <textarea name="" id=""></textarea>
+
+  </fieldset>
+    <td rowspan="6"> 
+      <input type="submit" value="Submit" />
+    </td>
